@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B181D9E2F70B9852705356A12503F0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		40554E2D2C5F5FA044715B0D637323FD /* Pods-HKAlbumPickerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB402D0DBB5883801B3150E533B47251 /* Pods-HKAlbumPickerTests-dummy.m */; };
+		409AFEAB88D04B8EB8DD8A1759E28689 /* Pods-HKAlbumPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05DE9ACA7FAB7DE82219D868F9E71EB3 /* Pods-HKAlbumPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66F2E436D3BF0951E905F5043CB8AA91 /* Pods-HKAlbumPickerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 860B6EC507E51D125AF21EED1870CE3A /* Pods-HKAlbumPickerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		712C1AC9B648A4E53C5825413B40BF16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A561541229CE589F10D7BB503A2233CA /* Pods-HKAlbumPicker-HKAlbumPickerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEF50C9D231D2261E7D566C6F869432A /* Pods-HKAlbumPicker-HKAlbumPickerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE750FC81D19AB9E75CF6E97391DFC3F /* Pods-HKAlbumPicker-HKAlbumPickerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43998C17EAFDBB5B66FBD16CB2E2EECA /* Pods-HKAlbumPicker-HKAlbumPickerUITests-dummy.m */; };
+		C5472AC7744BEE947A782894C20E4B13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CEFC7D12381A9C820AD6F7C3C5606B74 /* Pods-HKAlbumPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E28CE217700D1A9C5B911F5284CDE36D /* Pods-HKAlbumPicker-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		037BA0084A22DBFF2B85DABA322EBAB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F62BF6950A42EEF1C257534E0CCB83E0;
+			remoteInfo = "Pods-HKAlbumPicker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05DE9ACA7FAB7DE82219D868F9E71EB3 /* Pods-HKAlbumPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HKAlbumPicker-umbrella.h"; sourceTree = "<group>"; };
+		06AD0C2408AB27BC44C75C4F943EACE6 /* Pods-HKAlbumPicker-HKAlbumPickerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HKAlbumPicker-HKAlbumPickerUITests.modulemap"; sourceTree = "<group>"; };
+		0FC8D2597222B05C7C069935DFA764DA /* Pods-HKAlbumPicker-HKAlbumPickerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HKAlbumPicker-HKAlbumPickerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1326EDBEEB7D6C8A16A4E6BF203C8461 /* Pods-HKAlbumPicker-HKAlbumPickerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HKAlbumPicker-HKAlbumPickerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		25797D40CC2BCF10B282D0D999C54CD2 /* Pods-HKAlbumPickerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HKAlbumPickerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2E2C9B83C4023CB3548DAE4BE7ED84AB /* Pods-HKAlbumPicker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HKAlbumPicker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		33706D8E5DD6AD3ECFA352E4ECC67620 /* Pods-HKAlbumPickerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HKAlbumPickerTests.modulemap"; sourceTree = "<group>"; };
+		37B5E83648F70D80EFB2A03411377066 /* Pods-HKAlbumPicker-HKAlbumPickerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HKAlbumPicker-HKAlbumPickerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		43998C17EAFDBB5B66FBD16CB2E2EECA /* Pods-HKAlbumPicker-HKAlbumPickerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HKAlbumPicker-HKAlbumPickerUITests-dummy.m"; sourceTree = "<group>"; };
+		4E62FA439DD3C773CF4992275EECC443 /* Pods-HKAlbumPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HKAlbumPicker-Info.plist"; sourceTree = "<group>"; };
+		5B77E0290F869981C154DAB85D89F635 /* Pods_HKAlbumPicker_HKAlbumPickerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HKAlbumPicker_HKAlbumPickerUITests.framework; path = "Pods-HKAlbumPicker-HKAlbumPickerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A38D5280FAA49441A9EADC12D86586A /* Pods-HKAlbumPickerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HKAlbumPickerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75A8588354D8A7C13F816AE9360442F4 /* Pods-HKAlbumPickerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HKAlbumPickerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		860B6EC507E51D125AF21EED1870CE3A /* Pods-HKAlbumPickerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HKAlbumPickerTests-umbrella.h"; sourceTree = "<group>"; };
+		8D4FFE96FAA13EF4100EE92241E8325B /* Pods-HKAlbumPickerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HKAlbumPickerTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E04688005F70E993104B77B8543E08D /* Pods-HKAlbumPicker-HKAlbumPickerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HKAlbumPicker-HKAlbumPickerUITests-Info.plist"; sourceTree = "<group>"; };
+		A523033FD95AAF74295442A9302EBB00 /* Pods-HKAlbumPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HKAlbumPicker.modulemap"; sourceTree = "<group>"; };
+		A8FE300C6AFCB70D877581EF496A6EED /* Pods_HKAlbumPickerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HKAlbumPickerTests.framework; path = "Pods-HKAlbumPickerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD647CFF33505040D83F45C2620C1728 /* Pods-HKAlbumPicker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HKAlbumPicker-acknowledgements.plist"; sourceTree = "<group>"; };
+		BBA67B2B93496D38E626E6A8F03BE366 /* Pods-HKAlbumPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HKAlbumPicker.debug.xcconfig"; sourceTree = "<group>"; };
+		DE8EFD9C209F8069447EEA69284F294D /* Pods-HKAlbumPicker-HKAlbumPickerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HKAlbumPicker-HKAlbumPickerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E0810CFE11D4877A90F9012E361454A2 /* Pods-HKAlbumPickerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HKAlbumPickerTests-Info.plist"; sourceTree = "<group>"; };
+		E28CE217700D1A9C5B911F5284CDE36D /* Pods-HKAlbumPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HKAlbumPicker-dummy.m"; sourceTree = "<group>"; };
+		ED129E1C6E247A5AFA6896B90BA50D18 /* Pods_HKAlbumPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HKAlbumPicker.framework; path = "Pods-HKAlbumPicker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEF50C9D231D2261E7D566C6F869432A /* Pods-HKAlbumPicker-HKAlbumPickerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HKAlbumPicker-HKAlbumPickerUITests-umbrella.h"; sourceTree = "<group>"; };
+		FB402D0DBB5883801B3150E533B47251 /* Pods-HKAlbumPickerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HKAlbumPickerTests-dummy.m"; sourceTree = "<group>"; };
+		FD43275174EEDBB79D7758F627716238 /* Pods-HKAlbumPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HKAlbumPicker.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03D0BD6E5EBC4E74086C895E3F71AF11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5472AC7744BEE947A782894C20E4B13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02949DDC1B483B39C3378C4120E9125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B181D9E2F70B9852705356A12503F0E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57778755B2941A8C6F989F386726E28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712C1AC9B648A4E53C5825413B40BF16 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		357BA45A7BA47FFDDBC2CB096059E435 /* Pods-HKAlbumPicker-HKAlbumPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06AD0C2408AB27BC44C75C4F943EACE6 /* Pods-HKAlbumPicker-HKAlbumPickerUITests.modulemap */,
+				DE8EFD9C209F8069447EEA69284F294D /* Pods-HKAlbumPicker-HKAlbumPickerUITests-acknowledgements.markdown */,
+				1326EDBEEB7D6C8A16A4E6BF203C8461 /* Pods-HKAlbumPicker-HKAlbumPickerUITests-acknowledgements.plist */,
+				43998C17EAFDBB5B66FBD16CB2E2EECA /* Pods-HKAlbumPicker-HKAlbumPickerUITests-dummy.m */,
+				9E04688005F70E993104B77B8543E08D /* Pods-HKAlbumPicker-HKAlbumPickerUITests-Info.plist */,
+				EEF50C9D231D2261E7D566C6F869432A /* Pods-HKAlbumPicker-HKAlbumPickerUITests-umbrella.h */,
+				0FC8D2597222B05C7C069935DFA764DA /* Pods-HKAlbumPicker-HKAlbumPickerUITests.debug.xcconfig */,
+				37B5E83648F70D80EFB2A03411377066 /* Pods-HKAlbumPicker-HKAlbumPickerUITests.release.xcconfig */,
+			);
+			name = "Pods-HKAlbumPicker-HKAlbumPickerUITests";
+			path = "Target Support Files/Pods-HKAlbumPicker-HKAlbumPickerUITests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6AA27DBBD8AE1ADACACD2A3C560E3104 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E0668392F50BCCDC7B2B278DB877E89 /* Pods-HKAlbumPicker */,
+				357BA45A7BA47FFDDBC2CB096059E435 /* Pods-HKAlbumPicker-HKAlbumPickerUITests */,
+				6E84F0044BB4D34111D957B738A2BB2B /* Pods-HKAlbumPickerTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6E84F0044BB4D34111D957B738A2BB2B /* Pods-HKAlbumPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				33706D8E5DD6AD3ECFA352E4ECC67620 /* Pods-HKAlbumPickerTests.modulemap */,
+				75A8588354D8A7C13F816AE9360442F4 /* Pods-HKAlbumPickerTests-acknowledgements.markdown */,
+				25797D40CC2BCF10B282D0D999C54CD2 /* Pods-HKAlbumPickerTests-acknowledgements.plist */,
+				FB402D0DBB5883801B3150E533B47251 /* Pods-HKAlbumPickerTests-dummy.m */,
+				E0810CFE11D4877A90F9012E361454A2 /* Pods-HKAlbumPickerTests-Info.plist */,
+				860B6EC507E51D125AF21EED1870CE3A /* Pods-HKAlbumPickerTests-umbrella.h */,
+				6A38D5280FAA49441A9EADC12D86586A /* Pods-HKAlbumPickerTests.debug.xcconfig */,
+				8D4FFE96FAA13EF4100EE92241E8325B /* Pods-HKAlbumPickerTests.release.xcconfig */,
+			);
+			name = "Pods-HKAlbumPickerTests";
+			path = "Target Support Files/Pods-HKAlbumPickerTests";
+			sourceTree = "<group>";
+		};
+		7E0668392F50BCCDC7B2B278DB877E89 /* Pods-HKAlbumPicker */ = {
+			isa = PBXGroup;
+			children = (
+				A523033FD95AAF74295442A9302EBB00 /* Pods-HKAlbumPicker.modulemap */,
+				2E2C9B83C4023CB3548DAE4BE7ED84AB /* Pods-HKAlbumPicker-acknowledgements.markdown */,
+				AD647CFF33505040D83F45C2620C1728 /* Pods-HKAlbumPicker-acknowledgements.plist */,
+				E28CE217700D1A9C5B911F5284CDE36D /* Pods-HKAlbumPicker-dummy.m */,
+				4E62FA439DD3C773CF4992275EECC443 /* Pods-HKAlbumPicker-Info.plist */,
+				05DE9ACA7FAB7DE82219D868F9E71EB3 /* Pods-HKAlbumPicker-umbrella.h */,
+				BBA67B2B93496D38E626E6A8F03BE366 /* Pods-HKAlbumPicker.debug.xcconfig */,
+				FD43275174EEDBB79D7758F627716238 /* Pods-HKAlbumPicker.release.xcconfig */,
+			);
+			name = "Pods-HKAlbumPicker";
+			path = "Target Support Files/Pods-HKAlbumPicker";
+			sourceTree = "<group>";
+		};
+		A664A2289926B10E42CB0C775B99F913 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED129E1C6E247A5AFA6896B90BA50D18 /* Pods_HKAlbumPicker.framework */,
+				5B77E0290F869981C154DAB85D89F635 /* Pods_HKAlbumPicker_HKAlbumPickerUITests.framework */,
+				A8FE300C6AFCB70D877581EF496A6EED /* Pods_HKAlbumPickerTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A664A2289926B10E42CB0C775B99F913 /* Products */,
+				6AA27DBBD8AE1ADACACD2A3C560E3104 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5280F39F89240D1CCEBC8E7E7BB9DA6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A561541229CE589F10D7BB503A2233CA /* Pods-HKAlbumPicker-HKAlbumPickerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C8B161601A1AE4E904F68CA17CEA27 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F2E436D3BF0951E905F5043CB8AA91 /* Pods-HKAlbumPickerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC611363ECDD81568E282AA113B1D0C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409AFEAB88D04B8EB8DD8A1759E28689 /* Pods-HKAlbumPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		980DC4BDE027E7752ED20B3AB9CF44BA /* Pods-HKAlbumPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4F953A0B6EC827B6B218CB4ABBE9DA1 /* Build configuration list for PBXNativeTarget "Pods-HKAlbumPickerTests" */;
+			buildPhases = (
+				E3C8B161601A1AE4E904F68CA17CEA27 /* Headers */,
+				9E409484095306439FDCDCDAE7481F2F /* Sources */,
+				F57778755B2941A8C6F989F386726E28 /* Frameworks */,
+				B17D2EE466BA9686D167144CDECF557A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95165E81DD55550283136F731CF47CDB /* PBXTargetDependency */,
+			);
+			name = "Pods-HKAlbumPickerTests";
+			productName = "Pods-HKAlbumPickerTests";
+			productReference = A8FE300C6AFCB70D877581EF496A6EED /* Pods_HKAlbumPickerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC620C59D068A5071B653F475CE01A50 /* Pods-HKAlbumPicker-HKAlbumPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC45D50480C2EC801CF6054962005D68 /* Build configuration list for PBXNativeTarget "Pods-HKAlbumPicker-HKAlbumPickerUITests" */;
+			buildPhases = (
+				5280F39F89240D1CCEBC8E7E7BB9DA6D /* Headers */,
+				325EF67A876BC5D41BED317683B7576C /* Sources */,
+				A02949DDC1B483B39C3378C4120E9125 /* Frameworks */,
+				B7BC042C2DBB67B2CFDDEBC089CF79B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HKAlbumPicker-HKAlbumPickerUITests";
+			productName = "Pods-HKAlbumPicker-HKAlbumPickerUITests";
+			productReference = 5B77E0290F869981C154DAB85D89F635 /* Pods_HKAlbumPicker_HKAlbumPickerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F62BF6950A42EEF1C257534E0CCB83E0 /* Pods-HKAlbumPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C845450759758D1D3B05B6E801913F /* Build configuration list for PBXNativeTarget "Pods-HKAlbumPicker" */;
+			buildPhases = (
+				EC611363ECDD81568E282AA113B1D0C0 /* Headers */,
+				3E0B07A5A99525DB52A17AD2670612F4 /* Sources */,
+				03D0BD6E5EBC4E74086C895E3F71AF11 /* Frameworks */,
+				621277B11ED6B44108017F054EA6900B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HKAlbumPicker";
+			productName = "Pods-HKAlbumPicker";
+			productReference = ED129E1C6E247A5AFA6896B90BA50D18 /* Pods_HKAlbumPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A664A2289926B10E42CB0C775B99F913 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F62BF6950A42EEF1C257534E0CCB83E0 /* Pods-HKAlbumPicker */,
+				AC620C59D068A5071B653F475CE01A50 /* Pods-HKAlbumPicker-HKAlbumPickerUITests */,
+				980DC4BDE027E7752ED20B3AB9CF44BA /* Pods-HKAlbumPickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		621277B11ED6B44108017F054EA6900B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B17D2EE466BA9686D167144CDECF557A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BC042C2DBB67B2CFDDEBC089CF79B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		325EF67A876BC5D41BED317683B7576C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE750FC81D19AB9E75CF6E97391DFC3F /* Pods-HKAlbumPicker-HKAlbumPickerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E0B07A5A99525DB52A17AD2670612F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFC7D12381A9C820AD6F7C3C5606B74 /* Pods-HKAlbumPicker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E409484095306439FDCDCDAE7481F2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40554E2D2C5F5FA044715B0D637323FD /* Pods-HKAlbumPickerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95165E81DD55550283136F731CF47CDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HKAlbumPicker";
+			target = F62BF6950A42EEF1C257534E0CCB83E0 /* Pods-HKAlbumPicker */;
+			targetProxy = 037BA0084A22DBFF2B85DABA322EBAB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10222DC8E551EF19BE378FDA8214F29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD43275174EEDBB79D7758F627716238 /* Pods-HKAlbumPicker.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HKAlbumPicker/Pods-HKAlbumPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HKAlbumPicker/Pods-HKAlbumPicker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		20AB5ADF62C06D96966B22B059F151D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FC8D2597222B05C7C069935DFA764DA /* Pods-HKAlbumPicker-HKAlbumPickerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HKAlbumPicker-HKAlbumPickerUITests/Pods-HKAlbumPicker-HKAlbumPickerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HKAlbumPicker-HKAlbumPickerUITests/Pods-HKAlbumPicker-HKAlbumPickerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D751488A85243C94D878C55971FFCCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A38D5280FAA49441A9EADC12D86586A /* Pods-HKAlbumPickerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HKAlbumPickerTests/Pods-HKAlbumPickerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HKAlbumPickerTests/Pods-HKAlbumPickerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7FEC226AA73B937D7E76CA4C9292767B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37B5E83648F70D80EFB2A03411377066 /* Pods-HKAlbumPicker-HKAlbumPickerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HKAlbumPicker-HKAlbumPickerUITests/Pods-HKAlbumPicker-HKAlbumPickerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HKAlbumPicker-HKAlbumPickerUITests/Pods-HKAlbumPicker-HKAlbumPickerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		97C3C8A5E885AE355D9CC0F2A10ED20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9DFA7D08415265C89B4959C7F4554A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A64AB4A75D4DC3963DCDAF62F5F32DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D4FFE96FAA13EF4100EE92241E8325B /* Pods-HKAlbumPickerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HKAlbumPickerTests/Pods-HKAlbumPickerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HKAlbumPickerTests/Pods-HKAlbumPickerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D1D44B01BAB541BC571CCCCCA60A20E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBA67B2B93496D38E626E6A8F03BE366 /* Pods-HKAlbumPicker.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HKAlbumPicker/Pods-HKAlbumPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HKAlbumPicker/Pods-HKAlbumPicker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97C3C8A5E885AE355D9CC0F2A10ED20C /* Debug */,
+				9DFA7D08415265C89B4959C7F4554A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64C845450759758D1D3B05B6E801913F /* Build configuration list for PBXNativeTarget "Pods-HKAlbumPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1D44B01BAB541BC571CCCCCA60A20E6 /* Debug */,
+				10222DC8E551EF19BE378FDA8214F29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC45D50480C2EC801CF6054962005D68 /* Build configuration list for PBXNativeTarget "Pods-HKAlbumPicker-HKAlbumPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20AB5ADF62C06D96966B22B059F151D2 /* Debug */,
+				7FEC226AA73B937D7E76CA4C9292767B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4F953A0B6EC827B6B218CB4ABBE9DA1 /* Build configuration list for PBXNativeTarget "Pods-HKAlbumPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D751488A85243C94D878C55971FFCCC /* Debug */,
+				A64AB4A75D4DC3963DCDAF62F5F32DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

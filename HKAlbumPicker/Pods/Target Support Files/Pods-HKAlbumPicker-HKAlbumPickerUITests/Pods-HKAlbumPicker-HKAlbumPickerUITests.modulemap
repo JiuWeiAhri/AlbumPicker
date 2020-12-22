@@ -1,0 +1,6 @@
+framework module Pods_HKAlbumPicker_HKAlbumPickerUITests {
+  umbrella header "Pods-HKAlbumPicker-HKAlbumPickerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
