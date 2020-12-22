@@ -14,6 +14,29 @@
 		0C787B762591D85000E04553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C787B742591D85000E04553 /* LaunchScreen.storyboard */; };
 		0C787B812591D85000E04553 /* HKAlbumPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C787B802591D85000E04553 /* HKAlbumPickerTests.swift */; };
 		0C787B8C2591D85000E04553 /* HKAlbumPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C787B8B2591D85000E04553 /* HKAlbumPickerUITests.swift */; };
+		0C80B66E2592130000E40A80 /* HKAlbumCameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C80B6542592130000E40A80 /* HKAlbumCameraVC.swift */; };
+		0C80B66F2592130000E40A80 /* HKAlbumBrowerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C80B6552592130000E40A80 /* HKAlbumBrowerVC.swift */; };
+		0C80B6702592130000E40A80 /* HKAlbumListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C80B6572592130000E40A80 /* HKAlbumListCell.swift */; };
+		0C80B6712592130000E40A80 /* HKAlumBrowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C80B6582592130000E40A80 /* HKAlumBrowerCell.swift */; };
+		0C80B6722592130000E40A80 /* HKAlbumCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C80B6592592130000E40A80 /* HKAlbumCollectionCell.swift */; };
+		0C80B6732592130000E40A80 /* HKAlbumCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C80B65A2592130000E40A80 /* HKAlbumCollectionVC.swift */; };
+		0C80B6742592130000E40A80 /* HKAlbumManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C80B65B2592130000E40A80 /* HKAlbumManager.swift */; };
+		0C80B6752592130000E40A80 /* takePhoto_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C80B65D2592130000E40A80 /* takePhoto_btn@2x.png */; };
+		0C80B6762592130000E40A80 /* takePhoto_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C80B65E2592130000E40A80 /* takePhoto_btn@3x.png */; };
+		0C80B6772592130000E40A80 /* back_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C80B65F2592130000E40A80 /* back_white@3x.png */; };
+		0C80B6782592130000E40A80 /* camera_turn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C80B6602592130000E40A80 /* camera_turn@3x.png */; };
+		0C80B6792592130000E40A80 /* camera_turn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C80B6612592130000E40A80 /* camera_turn@2x.png */; };
+		0C80B67A2592130000E40A80 /* back_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C80B6622592130000E40A80 /* back_white@2x.png */; };
+		0C80B67B2592130000E40A80 /* CellBlueSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C80B6632592130000E40A80 /* CellBlueSelected@2x.png */; };
+		0C80B67C2592130000E40A80 /* up_gray@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C80B6642592130000E40A80 /* up_gray@3x.png */; };
+		0C80B67D2592130000E40A80 /* up_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C80B6652592130000E40A80 /* up_gray@2x.png */; };
+		0C80B67E2592130000E40A80 /* CellGreySelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C80B6662592130000E40A80 /* CellGreySelected@2x.png */; };
+		0C80B67F2592130000E40A80 /* closeX@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C80B6672592130000E40A80 /* closeX@2x.png */; };
+		0C80B6802592130000E40A80 /* down_gray@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C80B6682592130000E40A80 /* down_gray@3x.png */; };
+		0C80B6812592130000E40A80 /* down_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C80B6692592130000E40A80 /* down_gray@2x.png */; };
+		0C80B6822592130000E40A80 /* closeX@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C80B66A2592130000E40A80 /* closeX@3x.png */; };
+		0C80B6832592130000E40A80 /* HKAlbumListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C80B66C2592130000E40A80 /* HKAlbumListView.swift */; };
+		0C80B6842592130000E40A80 /* HKAlbumCropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C80B66D2592130000E40A80 /* HKAlbumCropView.swift */; };
 		9163F8C2662991F8F90265BD /* Pods_HKAlbumPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9507C850A41D5CB7DA614EBE /* Pods_HKAlbumPicker.framework */; };
 		9FA948A3FD788BC088A6C6C7 /* Pods_HKAlbumPickerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE90A30BDDAD866442FAB8FF /* Pods_HKAlbumPickerTests.framework */; };
 		E86A4819C8EC7D9CAAC790ED /* Pods_HKAlbumPicker_HKAlbumPickerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2966F5AC7B68A113C1C21215 /* Pods_HKAlbumPicker_HKAlbumPickerUITests.framework */; };
@@ -50,6 +73,29 @@
 		0C787B872591D85000E04553 /* HKAlbumPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HKAlbumPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C787B8B2591D85000E04553 /* HKAlbumPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKAlbumPickerUITests.swift; sourceTree = "<group>"; };
 		0C787B8D2591D85000E04553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C80B6542592130000E40A80 /* HKAlbumCameraVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKAlbumCameraVC.swift; sourceTree = "<group>"; };
+		0C80B6552592130000E40A80 /* HKAlbumBrowerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKAlbumBrowerVC.swift; sourceTree = "<group>"; };
+		0C80B6572592130000E40A80 /* HKAlbumListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKAlbumListCell.swift; sourceTree = "<group>"; };
+		0C80B6582592130000E40A80 /* HKAlumBrowerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKAlumBrowerCell.swift; sourceTree = "<group>"; };
+		0C80B6592592130000E40A80 /* HKAlbumCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKAlbumCollectionCell.swift; sourceTree = "<group>"; };
+		0C80B65A2592130000E40A80 /* HKAlbumCollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKAlbumCollectionVC.swift; sourceTree = "<group>"; };
+		0C80B65B2592130000E40A80 /* HKAlbumManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKAlbumManager.swift; sourceTree = "<group>"; };
+		0C80B65D2592130000E40A80 /* takePhoto_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "takePhoto_btn@2x.png"; sourceTree = "<group>"; };
+		0C80B65E2592130000E40A80 /* takePhoto_btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "takePhoto_btn@3x.png"; sourceTree = "<group>"; };
+		0C80B65F2592130000E40A80 /* back_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_white@3x.png"; sourceTree = "<group>"; };
+		0C80B6602592130000E40A80 /* camera_turn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_turn@3x.png"; sourceTree = "<group>"; };
+		0C80B6612592130000E40A80 /* camera_turn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_turn@2x.png"; sourceTree = "<group>"; };
+		0C80B6622592130000E40A80 /* back_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_white@2x.png"; sourceTree = "<group>"; };
+		0C80B6632592130000E40A80 /* CellBlueSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CellBlueSelected@2x.png"; sourceTree = "<group>"; };
+		0C80B6642592130000E40A80 /* up_gray@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "up_gray@3x.png"; sourceTree = "<group>"; };
+		0C80B6652592130000E40A80 /* up_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "up_gray@2x.png"; sourceTree = "<group>"; };
+		0C80B6662592130000E40A80 /* CellGreySelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CellGreySelected@2x.png"; sourceTree = "<group>"; };
+		0C80B6672592130000E40A80 /* closeX@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "closeX@2x.png"; sourceTree = "<group>"; };
+		0C80B6682592130000E40A80 /* down_gray@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down_gray@3x.png"; sourceTree = "<group>"; };
+		0C80B6692592130000E40A80 /* down_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down_gray@2x.png"; sourceTree = "<group>"; };
+		0C80B66A2592130000E40A80 /* closeX@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "closeX@3x.png"; sourceTree = "<group>"; };
+		0C80B66C2592130000E40A80 /* HKAlbumListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKAlbumListView.swift; sourceTree = "<group>"; };
+		0C80B66D2592130000E40A80 /* HKAlbumCropView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HKAlbumCropView.swift; sourceTree = "<group>"; };
 		12FA91781D1DCAE12B3F9623 /* Pods-HKAlbumPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HKAlbumPicker.debug.xcconfig"; path = "Target Support Files/Pods-HKAlbumPicker/Pods-HKAlbumPicker.debug.xcconfig"; sourceTree = "<group>"; };
 		2966F5AC7B68A113C1C21215 /* Pods_HKAlbumPicker_HKAlbumPickerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HKAlbumPicker_HKAlbumPickerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC20230508E5DB07D096AF5 /* Pods-HKAlbumPickerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HKAlbumPickerTests.release.xcconfig"; path = "Target Support Files/Pods-HKAlbumPickerTests/Pods-HKAlbumPickerTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +160,7 @@
 		0C787B682591D84E00E04553 /* HKAlbumPicker */ = {
 			isa = PBXGroup;
 			children = (
+				0C80B6532592130000E40A80 /* 1 */,
 				0C787B692591D84E00E04553 /* AppDelegate.swift */,
 				0C787B6D2591D84E00E04553 /* ViewController.swift */,
 				0C787B6F2591D84E00E04553 /* Main.storyboard */,
@@ -142,6 +189,60 @@
 			path = HKAlbumPickerUITests;
 			sourceTree = "<group>";
 		};
+		0C80B6532592130000E40A80 /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				0C80B6542592130000E40A80 /* HKAlbumCameraVC.swift */,
+				0C80B6552592130000E40A80 /* HKAlbumBrowerVC.swift */,
+				0C80B6562592130000E40A80 /* AlbumCells */,
+				0C80B65A2592130000E40A80 /* HKAlbumCollectionVC.swift */,
+				0C80B65B2592130000E40A80 /* HKAlbumManager.swift */,
+				0C80B65C2592130000E40A80 /* icon */,
+				0C80B66B2592130000E40A80 /* Views */,
+			);
+			path = 1;
+			sourceTree = SOURCE_ROOT;
+		};
+		0C80B6562592130000E40A80 /* AlbumCells */ = {
+			isa = PBXGroup;
+			children = (
+				0C80B6572592130000E40A80 /* HKAlbumListCell.swift */,
+				0C80B6582592130000E40A80 /* HKAlumBrowerCell.swift */,
+				0C80B6592592130000E40A80 /* HKAlbumCollectionCell.swift */,
+			);
+			path = AlbumCells;
+			sourceTree = "<group>";
+		};
+		0C80B65C2592130000E40A80 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				0C80B65D2592130000E40A80 /* takePhoto_btn@2x.png */,
+				0C80B65E2592130000E40A80 /* takePhoto_btn@3x.png */,
+				0C80B65F2592130000E40A80 /* back_white@3x.png */,
+				0C80B6602592130000E40A80 /* camera_turn@3x.png */,
+				0C80B6612592130000E40A80 /* camera_turn@2x.png */,
+				0C80B6622592130000E40A80 /* back_white@2x.png */,
+				0C80B6632592130000E40A80 /* CellBlueSelected@2x.png */,
+				0C80B6642592130000E40A80 /* up_gray@3x.png */,
+				0C80B6652592130000E40A80 /* up_gray@2x.png */,
+				0C80B6662592130000E40A80 /* CellGreySelected@2x.png */,
+				0C80B6672592130000E40A80 /* closeX@2x.png */,
+				0C80B6682592130000E40A80 /* down_gray@3x.png */,
+				0C80B6692592130000E40A80 /* down_gray@2x.png */,
+				0C80B66A2592130000E40A80 /* closeX@3x.png */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		0C80B66B2592130000E40A80 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0C80B66C2592130000E40A80 /* HKAlbumListView.swift */,
+				0C80B66D2592130000E40A80 /* HKAlbumCropView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A1F771981414CD2CB1282359 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,7 +253,6 @@
 				6DB7F9191E80A5C15DB44882 /* Pods-HKAlbumPickerTests.debug.xcconfig */,
 				2DC20230508E5DB07D096AF5 /* Pods-HKAlbumPickerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -273,9 +373,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C80B67A2592130000E40A80 /* back_white@2x.png in Resources */,
+				0C80B6792592130000E40A80 /* camera_turn@2x.png in Resources */,
+				0C80B67D2592130000E40A80 /* up_gray@2x.png in Resources */,
+				0C80B6802592130000E40A80 /* down_gray@3x.png in Resources */,
+				0C80B6782592130000E40A80 /* camera_turn@3x.png in Resources */,
+				0C80B6772592130000E40A80 /* back_white@3x.png in Resources */,
 				0C787B762591D85000E04553 /* LaunchScreen.storyboard in Resources */,
+				0C80B6812592130000E40A80 /* down_gray@2x.png in Resources */,
 				0C787B732591D85000E04553 /* Assets.xcassets in Resources */,
+				0C80B6762592130000E40A80 /* takePhoto_btn@3x.png in Resources */,
+				0C80B67F2592130000E40A80 /* closeX@2x.png in Resources */,
+				0C80B67B2592130000E40A80 /* CellBlueSelected@2x.png in Resources */,
+				0C80B6822592130000E40A80 /* closeX@3x.png in Resources */,
+				0C80B67C2592130000E40A80 /* up_gray@3x.png in Resources */,
 				0C787B712591D84E00E04553 /* Main.storyboard in Resources */,
+				0C80B6752592130000E40A80 /* takePhoto_btn@2x.png in Resources */,
+				0C80B67E2592130000E40A80 /* CellGreySelected@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +485,15 @@
 			files = (
 				0C787B6E2591D84E00E04553 /* ViewController.swift in Sources */,
 				0C787B6A2591D84E00E04553 /* AppDelegate.swift in Sources */,
+				0C80B6842592130000E40A80 /* HKAlbumCropView.swift in Sources */,
+				0C80B6742592130000E40A80 /* HKAlbumManager.swift in Sources */,
+				0C80B66F2592130000E40A80 /* HKAlbumBrowerVC.swift in Sources */,
+				0C80B6722592130000E40A80 /* HKAlbumCollectionCell.swift in Sources */,
+				0C80B6702592130000E40A80 /* HKAlbumListCell.swift in Sources */,
+				0C80B6732592130000E40A80 /* HKAlbumCollectionVC.swift in Sources */,
+				0C80B6832592130000E40A80 /* HKAlbumListView.swift in Sources */,
+				0C80B6712592130000E40A80 /* HKAlumBrowerCell.swift in Sources */,
+				0C80B66E2592130000E40A80 /* HKAlbumCameraVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
