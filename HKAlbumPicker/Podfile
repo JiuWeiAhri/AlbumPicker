@@ -4,7 +4,9 @@
 target 'HKAlbumPicker' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
+  
+  pod 'YXKitOC', :git => 'https://gitee.com/zaaqqq/YXKitOC.git', :tag => '2.2.7'
+  pod 'Masonry'
   # Pods for HKAlbumPicker
 
   target 'HKAlbumPickerTests' do

@@ -135,6 +135,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C64531A2592E38F00B65061 /* Controlller */ = {
+			isa = PBXGroup;
+			children = (
+				0C80B6542592130000E40A80 /* HKAlbumCameraVC.swift */,
+				0C80B6552592130000E40A80 /* HKAlbumBrowerVC.swift */,
+				0C80B65A2592130000E40A80 /* HKAlbumCollectionVC.swift */,
+				0C80B65B2592130000E40A80 /* HKAlbumManager.swift */,
+			);
+			path = Controlller;
+			sourceTree = "<group>";
+		};
 		0C787B5D2591D84E00E04553 = {
 			isa = PBXGroup;
 			children = (
@@ -160,9 +171,12 @@
 		0C787B682591D84E00E04553 /* HKAlbumPicker */ = {
 			isa = PBXGroup;
 			children = (
-				0C80B6532592130000E40A80 /* 1 */,
 				0C787B692591D84E00E04553 /* AppDelegate.swift */,
 				0C787B6D2591D84E00E04553 /* ViewController.swift */,
+				0C64531A2592E38F00B65061 /* Controlller */,
+				0C80B6562592130000E40A80 /* AlbumCells */,
+				0C80B65C2592130000E40A80 /* icon */,
+				0C80B66B2592130000E40A80 /* Views */,
 				0C787B6F2591D84E00E04553 /* Main.storyboard */,
 				0C787B722591D85000E04553 /* Assets.xcassets */,
 				0C787B742591D85000E04553 /* LaunchScreen.storyboard */,
@@ -188,20 +202,6 @@
 			);
 			path = HKAlbumPickerUITests;
 			sourceTree = "<group>";
-		};
-		0C80B6532592130000E40A80 /* 1 */ = {
-			isa = PBXGroup;
-			children = (
-				0C80B6542592130000E40A80 /* HKAlbumCameraVC.swift */,
-				0C80B6552592130000E40A80 /* HKAlbumBrowerVC.swift */,
-				0C80B6562592130000E40A80 /* AlbumCells */,
-				0C80B65A2592130000E40A80 /* HKAlbumCollectionVC.swift */,
-				0C80B65B2592130000E40A80 /* HKAlbumManager.swift */,
-				0C80B65C2592130000E40A80 /* icon */,
-				0C80B66B2592130000E40A80 /* Views */,
-			);
-			path = 1;
-			sourceTree = SOURCE_ROOT;
 		};
 		0C80B6562592130000E40A80 /* AlbumCells */ = {
 			isa = PBXGroup;
@@ -277,6 +277,7 @@
 				0C787B622591D84E00E04553 /* Sources */,
 				0C787B632591D84E00E04553 /* Frameworks */,
 				0C787B642591D84E00E04553 /* Resources */,
+				E9E0A86B66BBB4EFD51E7407 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -314,6 +315,7 @@
 				0C787B832591D85000E04553 /* Sources */,
 				0C787B842591D85000E04553 /* Frameworks */,
 				0C787B852591D85000E04553 /* Resources */,
+				491BC9C56889C83D6CACCC6A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -432,6 +434,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		491BC9C56889C83D6CACCC6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HKAlbumPicker-HKAlbumPickerUITests/Pods-HKAlbumPicker-HKAlbumPickerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HKAlbumPicker-HKAlbumPickerUITests/Pods-HKAlbumPicker-HKAlbumPickerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HKAlbumPicker-HKAlbumPickerUITests/Pods-HKAlbumPicker-HKAlbumPickerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		68A4DFF9F49521A15CF89E74 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -474,6 +493,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9E0A86B66BBB4EFD51E7407 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HKAlbumPicker/Pods-HKAlbumPicker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HKAlbumPicker/Pods-HKAlbumPicker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HKAlbumPicker/Pods-HKAlbumPicker-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

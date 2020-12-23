@@ -1,0 +1,6 @@
+framework module YXKitOC {
+  umbrella header "YXKitOC-umbrella.h"
+
+  export *
+  module * { export * }
+}

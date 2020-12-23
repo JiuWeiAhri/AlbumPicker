@@ -1,0 +1,64 @@
+{
+  "name": "YXKitOC",
+  "version": "2.2.6",
+  "summary": "iOS核心库Objective-C",
+  "description": "通用底层库，让编码变得更简单更高效！",
+  "homepage": "https://gitee.com/zaaqqq/YXKitOC",
+  "license": "MIT",
+  "authors": {
+    "zhxin": "zhxin@taoche.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://gitee.com/zaaqqq/YXKitOC.git",
+    "tag": "2.2.6"
+  },
+  "source_files": "YXKitOC/YXKitOC/**/*.{h,m}",
+  "resources": [
+    "YXKitOC/YXKitOC/YXView/CustomKeyboard/RYNumbeKeyboard.bundle",
+    "YXKitOC/YXKitOC/Library/WSDatePickerView/WSDatePickerView.bundle",
+    "YXKitOC/YXKitOC/YXView/YXMenuFilterManager/YXMenuFilterManager.bundle"
+  ],
+  "frameworks": [
+    "Foundation",
+    "UIKit"
+  ],
+  "requires_arc": true,
+  "dependencies": {
+    "MBProgressHUD": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "IQKeyboardManager": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "YYCategories": [
+
+    ],
+    "BlocksKit": [
+
+    ],
+    "JXCategoryView": [
+
+    ],
+    "YTKNetwork": [
+
+    ],
+    "KKJSBridge": [
+      "1.0.15"
+    ]
+  }
+}

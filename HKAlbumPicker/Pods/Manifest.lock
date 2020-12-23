@@ -1,3 +1,98 @@
-PODFILE CHECKSUM: c1bab29f74915b30de7cccf038fb615f97de782f
+PODS:
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - IQKeyboardManager (6.5.6)
+  - JXCategoryView (1.5.8)
+  - KKJSBridge (1.0.15)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.5.0)
+  - SDWebImage (5.10.0):
+    - SDWebImage/Core (= 5.10.0)
+  - SDWebImage/Core (5.10.0)
+  - YTKNetwork (3.0.4):
+    - AFNetworking/NSURLSession (~> 4.0)
+  - YXKitOC (2.2.6):
+    - BlocksKit
+    - IQKeyboardManager
+    - JXCategoryView
+    - KKJSBridge (= 1.0.15)
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - SDWebImage
+    - YTKNetwork
+    - YYCategories
+    - YYModel
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - Masonry
+  - YXKitOC (from `https://gitee.com/zaaqqq/YXKitOC.git`, tag `2.2.7`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - BlocksKit
+    - IQKeyboardManager
+    - JXCategoryView
+    - KKJSBridge
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - SDWebImage
+    - YTKNetwork
+    - YYCategories
+    - YYModel
+
+EXTERNAL SOURCES:
+  YXKitOC:
+    :git: https://gitee.com/zaaqqq/YXKitOC.git
+    :tag: 2.2.7
+
+CHECKOUT OPTIONS:
+  YXKitOC:
+    :git: https://gitee.com/zaaqqq/YXKitOC.git
+    :tag: 2.2.7
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  JXCategoryView: 778a620f76070d6598fd8d7239991b8da8326170
+  KKJSBridge: c5df564f6aebe1e255ea3ca083ce79fdf485f1f1
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  SDWebImage: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
+  YTKNetwork: a096f80c18c7e7cc0e623a0fbea0a1bfd3f5bcf2
+  YXKitOC: 4fd5c6f94f0167b906bcd090044a3e5145304fae
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 4a6eeb5e2154af3557f8f5f97fea28cea01ac53f
 
 COCOAPODS: 1.9.3

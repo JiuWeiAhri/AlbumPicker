@@ -12,12 +12,24 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .brown
+        self.view.backgroundColor = .white
 
+        
+        
+        let textImageV = UIImageView.init(frame: CGRect.init(x: 10, y: 100, width: 230, height: 230))
+        textImageV.backgroundColor = .brown
+        textImageV.isUserInteractionEnabled = true
+        self.view.addSubview(textImageV)
 
-
+        
+        let tap = UITapGestureRecognizer.init(target: self, action: #selector(clickImageView))
+        textImageV.addGestureRecognizer(tap)
     }
 
 
+    @objc func clickImageView(){
+        
+    }
+    
 }
 
