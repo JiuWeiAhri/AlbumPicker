@@ -29,7 +29,19 @@ class ViewController: UIViewController {
 
     @objc func clickImageView(){
         
+        HKAlbumManager.share.cropRatio = (3,2)
+        HKAlbumManager.share.maxSelected = 1
+        HKAlbumManager.share.selectPhotoType = .all
+
+        HKAlbumManager.share.showActionSheet(naviControl: self.navigationController!, selectType: HKAlbumManager.share.selectPhotoType) { (imageArr) in
+           
+        }
+        
+
+        
     }
+    
+    
     
 }
 
